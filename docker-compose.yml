@@ -1,0 +1,8 @@
+version: '3'
+services:
+  server:
+    image: 'lsby/docker_centos7_vnc'
+    ports:
+      - '2022:22'
+      - '25901:5901'
+      - '26901:6901'
